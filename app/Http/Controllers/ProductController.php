@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class ProductController extends Controller
 {
     function index(){
-        return "LISTADO DE PRODUCTOS";
+        return view('products.index');
     }
 
     function create(){
