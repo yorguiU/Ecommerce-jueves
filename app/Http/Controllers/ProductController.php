@@ -11,7 +11,7 @@ class ProductController extends Controller
     }
 
     function create(){
-         return "FORMULARIO DE CREACION DE PRODUCTOS:";
+         view('products.create');
     }
 
     function show ($id, $category = null){
