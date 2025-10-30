@@ -7,6 +7,15 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>LISTADO DE PRODUCTOS</h1>
+    
 </body>
+
+@include('layauts.navbar')
+
+
+@yield('content')
+
+
+@include('layauts.footer')
+
 </html>
